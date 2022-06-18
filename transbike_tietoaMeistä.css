@@ -1,0 +1,1260 @@
+
+
+
+/* ISOLLERUUDULLE */
+/* SIVUN YLÄ JA ALAKERTA */
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+@media screen and (min-width: 1376px){
+    .ylä_box{
+        position: fixed;
+        top:0%;
+        left:0%;
+        width:100%;
+        height: 100px; 
+        background-color:white;
+        
+     }
+     .tranbike_img{
+         position: fixed;
+         top: 0%;
+         left: 6%;
+         height: 100px;
+         width: auto;
+     }
+
+     .tilaa{
+         position: fixed;
+         top: 41px;
+         left: 520px;
+         text-decoration: none;
+         color: black;
+         font-size: 22px;
+         text-decoration: none;
+         cursor:text;
+     }
+     .slash{
+        font-size: 22px;
+        color: black;
+        position: fixed;
+        top: 40px;
+        left: 700px;
+        text-decoration: none;
+        cursor: text;
+     }
+    
+    .tilaa_maasto{
+        position: fixed;
+        top: 41px;
+        left: 590px;
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        font-size: 22px;
+    }
+    .tilaa_maasto:hover{
+        font-size:24px;
+    }
+    .tilaa_katu{
+        position: fixed;
+        top: 41px;
+        left: 720px;
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+    }
+    .tilaa_katu:hover{
+        font-size: 24px;
+    }
+     
+     .etusivulle{
+         position: fixed;
+         top: 41px;
+         left: 360px;
+         text-decoration: none;
+         color: black;
+         font-size: 22px;
+     }
+     .etusivulle:hover{
+         font-size: 24px;
+     }
+ 
+    
+    
+     .fucked_border{
+         position:fixed;
+         top: 100px;
+         height: 0.1%;
+         width: 100%;
+         left: 0%;
+         background-color: black;
+     }
+     footer{
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        top:1400px;
+        height: 250px;
+        background-color: rgb(61, 60, 60);
+    }
+    h1.reach{
+        font-size: 30px;
+        position: absolute;
+        top: 10px;
+        left: 150px;
+        color: orange;
+    }
+    p.reach{
+        font-size: 22px;
+        position: absolute;
+        top: 119px;
+        left: 100px;
+        color: orange;
+    }
+   .sähköposti{
+        font-size: 22px;
+        position: absolute;
+        top: 119px;
+        left: 260px;
+        text-decoration: none;
+        color:white;
+    }
+    
+    p.puhelin{
+        position: absolute;
+        top: 70px;
+        left: 100px;
+        font-size: 22px;
+        color: orange;
+    }
+    p.puhelin_nmr{
+        color: white;
+        position: absolute;
+        top: 70px;
+        left: 236px;
+        font-size: 22px;
+    }
+
+    p.somessa{
+        font-size: 22px;
+        position: absolute;
+        top: 165px;
+        left: 100px;
+        color: orange;
+    }
+    .face{
+       position: absolute;
+       top: 190px;
+       left: 230px;
+       width: 30px;
+       height: 30px;
+    }
+    .ig{
+        position: absolute;
+        top: 190px;
+        left: 290px;
+       width: 30px;
+       height: 30px;
+    }
+    .tt{
+       
+       width: 30px;
+       height: 30px;
+    }
+    .face:hover{
+       width: 50px;
+       height: 50px;
+       
+    }
+    .ig:hover{
+       width: 50px;
+       height: 50px;
+       
+    }
+    .tt:hover{
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       top: 170px;
+       left: 300px;
+    }
+    .transbike_img_info{
+        position: absolute;
+        top: 50px;
+        left: 70%;
+        width: 200px;
+        height: auto;
+    }
+    .connect{
+        position: absolute;
+        top: 3800px;
+        
+    }
+
+
+/* OTA YHTEYTTÄ OSIO */
+
+.container{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    height: 300px;
+    width: 1000px;
+    background-color: white;
+}
+p.ohje{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 210px;
+    left: 50px;
+}
+
+h1.yhteystiedot{
+    font-size: 35px;
+    color: black;
+    position: relative;
+    left: 150px;
+    top: 0px;
+}
+p.sähköposti2{
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    color: black;
+    font-size: 20px;
+}
+.email_com{
+    position: absolute;
+    top: 70px;
+    left: 265px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+p.sosiaalinenmedia{
+    position: absolute;
+    top: 105px;
+    left: 150px;
+    color: black;
+    font-size: 20px;
+}
+p.facebook{
+    position: absolute;
+    top: 105px;
+    left: 245px;
+    color: black;
+    font-size: 20px;
+}
+p.instagram{
+    position: absolute;
+    top: 140px;
+    left: 245px;
+    color: black;
+    font-size: 20px;
+}
+.face_linkki{
+    position: absolute;
+    top: 125px;
+    left: 345px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;  
+}
+.face_linkki:hover{
+    color: blue;
+}
+.ig_linkki{
+    position: absolute;
+    top: 159px;
+    left: 348px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;  
+}
+.ig_linkki:hover{
+    color: blue;
+}
+p.puhelin_yht{
+    position: absolute;
+    top: 175px;
+    left: 150px;
+    color: black;
+    font-size: 20px;
+}
+p.puhelinnumber{
+    position: absolute;
+    top: 175px;
+    left: 310px;
+    color: black;
+    font-size: 20px;
+}
+
+/* TIETOA MEISTÄ */
+.holder{
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    height: 300px;
+    width: 50%;
+    
+}
+.iso_kuva{
+    position: absolute;
+    top: 325px;
+    left: 1200px;
+    width: 400px;
+    height: 400px;
+}
+.huge_text_header{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    color: black;
+    font-size: 30px;
+}
+.huge_text{
+    font-size: 20px;
+    color: black;
+    top: 45px;
+    position: absolute;
+}
+.holder2{
+    position: absolute;
+    top: 750px;
+    left: 100px;
+    height: 700px;
+    width: 75%;
+    
+}
+.huge_text2{
+    font-size: 20px;
+    color: black;
+    top: 0px;
+    position: absolute;
+}
+.tilaa_katu_phone{
+    position: absolute;
+    top: 273px;
+    left: 44%;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    display: none;
+    }
+    .tilaa_maasto_phone{
+        position: absolute;
+        top: 273px;
+        left: 75%;
+        color: black;
+        font-size: 23px;
+        text-decoration: none;
+        display: none;
+    }
+    .tilaa_phone{
+        position: absolute;
+        top: 250px;
+        left: 26%;
+        color: black;
+        font-size: 23px;
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LÄPPÄRILLE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 426px) and (max-width: 1375px) {
+
+    .ylä_box{
+        position: fixed;
+        top:0%;
+        left:0%;
+        width:100%;
+        height: 100px; 
+        background-color:white;
+        
+        
+     }
+     .tranbike_img{
+         position: fixed;
+         top: 0%;
+         left: 60px;
+         height: 100px;
+         width: auto;
+     }
+
+     .tilaa{
+         position: fixed;
+         top: 41px;
+         left: 370px;
+         text-decoration: none;
+         color: black;
+         font-size: 22px;
+     }
+     .slash{
+        font-size: 22px;
+        color: black;
+        position: absolute;
+        top: 41px;
+        left: 530px;
+     }
+    
+    .tilaa_maasto{
+        position: fixed;
+        top: 41px;
+        left: 430px;
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+    }
+    .tilaa_maasto:hover{
+        font-size:24px;
+    }
+    .tilaa_katu{
+        position: fixed;
+        top: 41px;
+        left: 550px;
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+    }
+    .tilaa_katu:hover{
+        font-size: 24px;
+    }
+     
+     .etusivulle{
+         position: fixed;
+         top: 41px;
+         left: 250px;
+         text-decoration: none;
+         color: black;
+         font-size: 22px;
+     }
+     .etusivulle:hover{
+         font-size: 24px;
+     }
+ 
+    
+    
+     .fucked_border{
+         position:fixed;
+         top: 100px;
+         height: 0.1%;
+         width: 100%;
+         left: 0%;
+         background-color: black;
+     }
+     footer{
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        top:1400px;
+        height: 250px;
+        background-color: rgb(61, 60, 60);
+    }
+    h1.reach{
+        font-size: 30px;
+        position: absolute;
+        top: 10px;
+        left: 150px;
+        color: orange;
+    }
+    p.reach{
+        font-size: 22px;
+        position: absolute;
+        top: 119px;
+        left: 100px;
+        color: orange;
+    }
+   .sähköposti{
+        font-size: 22px;
+        position: absolute;
+        top: 119px;
+        left: 260px;
+        text-decoration: none;
+        color:white;
+    }
+    
+    p.puhelin{
+        position: absolute;
+        top: 70px;
+        left: 100px;
+        font-size: 22px;
+        color: orange;
+    }
+    p.puhelin_nmr{
+        color: white;
+        position: absolute;
+        top: 70px;
+        left: 236px;
+        font-size: 22px;
+    }
+
+    p.somessa{
+        font-size: 22px;
+        position: absolute;
+        top: 165px;
+        left: 100px;
+        color: orange;
+    }
+    .face{
+       position: absolute;
+       top: 190px;
+       left: 230px;
+       width: 30px;
+       height: 30px;
+    }
+    .ig{
+       position: absolute;
+       top: 190px;
+       left: 290px;
+       width: 30px;
+       height: 30px;
+    }
+    .tt{
+       position: absolute;
+       top: 182px;
+       left: 310px;
+       width: 30px;
+       height: 30px;
+    }
+    .face:hover{
+       width: 50px;
+       height: 50px;
+      
+    }
+    .ig:hover{
+       width: 50px;
+       height: 50px;
+       
+    }
+    .tt:hover{
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       top: 170px;
+       left: 300px;
+    }
+    .transbike_img_info{
+        position: absolute;
+        top: 50px;
+        left: 700px;
+        width: 200px;
+        height: auto;
+    }
+   
+
+
+
+/* OTA YHTEYTTÄ OSIO */
+
+.container{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    height: 325px;
+    width: 850px;
+    background-color: white;
+   
+}
+p.ohje{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 210px;
+    left: 50px;
+}
+
+h1.yhteystiedot{
+    font-size: 35px;
+    color: black;
+    position: relative;
+    left: 150px;
+    top: 0px;
+}
+p.sähköposti2{
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    color: black;
+    font-size: 20px;
+}
+.email_com{
+    position: absolute;
+    top: 70px;
+    left: 265px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+p.sosiaalinenmedia{
+    position: absolute;
+    top: 105px;
+    left: 150px;
+    color: black;
+    font-size: 20px;
+}
+p.facebook{
+    position: absolute;
+    top: 105px;
+    left: 245px;
+    color: black;
+    font-size: 20px;
+}
+p.instagram{
+    position: absolute;
+    top: 140px;
+    left: 245px;
+    color: black;
+    font-size: 20px;
+}
+.face_linkki{
+    position: absolute;
+    top: 125px;
+    left: 350px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;  
+}
+.face_linkki:hover{
+    color: blue;
+}
+.ig_linkki{
+    position: absolute;
+    top: 159px;
+    left: 350px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;  
+}
+.ig_linkki:hover{
+    color: blue;
+}
+p.puhelin_yht{
+    position: absolute;
+    top: 175px;
+    left: 150px;
+    color: black;
+    font-size: 20px;
+}
+p.puhelinnumber{
+    position: absolute;
+    top: 175px;
+    left: 310px;
+    color: black;
+    font-size: 20px;
+}
+
+/* TIETOA MEISTÄ */
+.holder{
+    position: absolute;
+    top: 475px;
+    left: 100px;
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    
+    
+}
+.iso_kuva{
+    position: absolute;
+    top: 325px;
+    left: 820px;
+    width: 350px;
+    height: 350px;
+}
+.huge_text_header{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    color: black;
+    font-size: 30px;
+    
+}
+
+.huge_text{
+    font-size: 20px;
+    color: black;
+    top: 45px;
+    position: absolute;
+}
+.holder2{
+    position: absolute;
+    top: 850px;
+    left: 100px;
+    height: 700px;
+    width: 900px;
+    background-color: white;
+    
+}
+.huge_text2{
+    font-size: 20px;
+    color: black;
+    top: 0px;
+    position: absolute;
+    }
+
+    .tilaa_katu_phone{
+        position: absolute;
+        top: 273px;
+        left: 44%;
+        color: black;
+        font-size: 23px;
+        text-decoration: none;
+        display: none;
+    }
+    .tilaa_maasto_phone{
+        position: absolute;
+        top: 273px;
+        left: 75%;
+        color: black;
+        font-size: 23px;
+        text-decoration: none;
+        display: none;
+    }
+    .tilaa_phone{
+        position: absolute;
+        top: 250px;
+        left: 26%;
+        color: black;
+        font-size: 23px;
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PHONELLE!!!!!!! */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 250px) and (max-width: 425px){
+
+    .ylä_box{
+        position: fixed;
+        top:0%;
+        left:0%;
+        width:100%;
+        height: 10%;                            /* EI OO */
+        background-color:white;
+        display: none;
+        
+     }
+     .tranbike_img{
+        position: absolute;
+        top: 1700px;
+        left: 22%;                      /* TEKSTIEN VÄLINEN KUVA */
+        height: 200px;
+        width: 200px;
+        padding-top:20px;
+        padding-bottom:100px;
+     }
+
+     .tilaa{
+         position: fixed;
+         top: 1.9%;
+         left: 30%;
+         text-decoration: none;         /* EI OO */
+         color: black;
+         font-size: 18px;
+         display: none;
+     }
+     .slash{
+        font-size: 20px;
+        color: black;               /* EI OO */
+        position: absolute;
+        top: 35px;
+        left: 38%;
+        display: none;
+     }
+    
+    .tilaa_maasto{
+        position: fixed;
+        top: 4%;
+        left: 33%;
+        text-decoration: none;          /* EI OO */
+        color: black;
+        display: none;
+    }
+    .tilaa_maasto:hover{
+        font-size:20px;
+        display: none;
+    }
+    .tilaa_katu{
+        position: fixed;
+        top: 4%;
+        left: 40%;
+        text-decoration: none;          /* EI OO */
+        color: black;
+        display: none;
+    }
+    .tilaa_katu:hover{
+        font-size: 20px;
+        display: none;
+    }
+     
+     .etusivulle{
+         position: fixed;
+         top: 4%;
+         left: 22%;
+         text-decoration: none;         /* EI OO */
+         color: black;
+         display: none;
+     }
+     .etusivulle:hover{
+         font-size: 20px;
+         display: none;
+     }
+ 
+     .fucked_border{
+         position:fixed;
+         top: 10%;
+         height: 0.1%;
+         width: 100%;
+         left: 0%;                       /* EI OO */
+         background-color: black;
+         display: none;
+     }
+     footer{
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        top: 3000px;         
+        height: 250px;
+        background-color: white;
+        
+        
+    }
+    h1.reach{
+        font-size: 23px;
+        position: absolute;
+        top: 30px;              
+        left: 50px;
+        color: orange;
+        display: none;
+        
+        
+    }
+    p.reach{
+        font-size: large;
+        position: absolute;
+        top: 119px;
+        left: 30px;
+        color: orange;
+        display: none;
+        
+        
+    }
+   .sähköposti{
+        font-size: large;
+        position: absolute;
+        top: 137px;
+        left: 160px;
+        text-decoration: none;
+        color:white;
+        display: none;
+        
+        
+    }
+    .sähköposti:hover{
+       color: lightblue;
+    }
+    p.puhelin{
+        position: absolute;
+        top: 70px;
+        left: 30px;
+        font-size: large;
+        color: orange;
+        display: none;
+        
+        
+    }
+    p.puhelin_nmr{
+        color: white;
+        position: absolute;
+        top: 74px;
+        left: 146px;
+        display: none;
+        
+        
+    }
+
+    p.somessa{
+        font-size: large;
+        position: absolute;
+        top: 165px;
+        left: 30px;
+        color: orange;
+        display: none;
+        
+        
+    }
+    .face{
+       position: absolute;
+       top: 182px;
+       left: 130px;
+       width: 30px;
+       height: 30px;
+       display: none;
+        
+    }
+    .ig{
+       position: absolute;
+       top: 182px;
+       left: 190px;
+       width: 30px;
+       height: 30px;
+       display: none;
+        
+    }
+    .tt{
+       position: absolute;
+       top: 182px;
+       left: 310px;
+       width: 30px;
+       height: 30px;
+       display: none;
+    }
+    .face:hover{
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       top: 170px;
+       left: 185px;
+       display: none;
+    }
+    .ig:hover{
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       top: 170px;
+       left: 240px;
+    }
+    .tt{
+       position: absolute;
+       top: 182px;
+       left: 310px;
+       width: 30px;
+       height: 30px;
+    }
+    .face:hover{
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       top: 170px;
+       left: 185px;
+    }
+    .ig:hover{
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       top: 170px;
+       left: 240px;
+    }
+    .tt:hover{
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       top: 170px;
+       left: 300px;
+    }
+    .transbike_img_info{
+        position: absolute;
+        top: 50px;
+        left: 70%;
+        width: 200px;
+        height: auto;
+        display: none;
+    }
+    .connect{
+        position: absolute;
+        top: 3800px;
+        
+    }
+
+
+
+/* ENSI NÄKYMÄ */
+
+.iso_kuva{
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    width: 250px;                   /*LEFT 40%*/
+    height: 185px;
+}
+.transbike{
+    position: absolute;
+    top: 190px;
+    left: 28%;
+    color: orange;
+    font-size: 30px;
+}
+.viiva{
+    position: absolute;
+    top: 250px;
+    left: 21%;
+    background-color: orange;
+    width: 187px;
+    height: 2px;
+}
+.tilaa_phone{
+    position: absolute;
+    top: 240px;
+    left: 37%;
+    color: black;
+    font-size: 23px;
+}
+.tilaa_katu_phone{
+    position: absolute;
+    top: 285px;
+    left: 29%;
+    color: black;
+    font-size: 23px;
+    
+
+}
+.tilaa_katu_phone:hover{
+    color: greenyellow;
+}
+.tilaa_maasto_phone{
+    position: absolute;
+    top: 310px;
+    left: 29%;
+    color: black;
+    font-size: 23px;
+    
+}
+.tilaa_maasto_phone:hover{
+    color: greenyellow;
+}
+
+/* OTA YHTEYTTÄ OSIO */
+
+.container{
+    position: absolute;
+    top: 350px;
+    left: 0%;
+    height: 380px;                  
+    width: 350px;
+    background-color:white;
+    
+}
+p.ohje{
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    top: 220px;
+    left: 20px;
+}
+
+h1.yhteystiedot{
+    font-size: 30px;
+    color: black;
+    position: relative;
+    left: 80px;
+    top: 0px;
+}
+p.sähköposti2{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    color: black;
+    font-size: 20px;
+}
+.email_com{
+    position: absolute;
+    top: 60px;
+    left: 140px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+p.sosiaalinenmedia{
+    position: absolute;
+    top: 105px;
+    left: 20px;
+    color: black;
+    font-size: 20px;
+}
+p.facebook{
+    position: absolute;
+    top: 105px;
+    left: 120px;
+    color: black;
+    font-size: 20px;
+}
+p.instagram{
+    position: absolute;
+    top: 140px;
+    left: 120px;
+    color: black;
+    font-size: 20px;
+}
+.face_linkki{
+    position: absolute;
+    top: 125px;
+    left: 228px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;  
+}
+.face_linkki:hover{
+    color: blue;
+}
+.ig_linkki{
+    position: absolute;
+    top: 159px;
+    left: 228px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;  
+}
+.ig_linkki:hover{
+    color: blue;
+}
+p.puhelin_yht{
+    position: absolute;
+    top: 175px;
+    left: 20px;
+    color: black;
+    font-size: 20px;
+}
+p.puhelinnumber{
+    position: absolute;
+    top: 175px;
+    left: 185px;
+    color:black;
+    font-size: 20px;
+
+}
+
+/* TIETOA MEISTÄ */
+.holder{
+    position: absolute;
+    top: 750px;
+    left: 5%;                /* ylempi*/
+    height: 700px;
+    width: 300px;
+    background-color: white;
+    
+}
+
+.huge_text_header{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    color: black;
+    font-size: 30px;
+}
+.huge_text{
+    font-size: 20px;
+    color: black;
+    top: 60px;
+    position: absolute;
+}
+.holder2{
+    position: absolute;
+    top: 2250px;
+    left: 5%;
+    height: 500px;                  /*alempi*/
+    width: 300px;
+    background-color: white;
+}
+.huge_text2{
+    font-size: 20px;
+    color: black;
+    top: 0px;
+    position: absolute;
+    
+    }
+
+}
